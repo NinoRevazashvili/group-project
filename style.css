@@ -1,0 +1,86 @@
+header{
+    width: 1440px;
+    height: 900px;
+    background: #FFF;
+}
+.div{
+    width: 400px;
+    height: 900px;
+    background: #2F80ED;
+    margin-right: 1040px;
+
+}
+.chart{
+width: 38px;
+height: 38px;
+margin-bottom: 147px;
+margin-right: 16px;
+margin-left:44px ;
+margin-top: 300px;
+display: inline-block;
+}
+
+.h5{
+color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 200px;
+margin-left: 16px;
+margin-right:94px;
+margin-bottom: 149px;
+display: inline-block;
+}
+.sign{
+color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+background-color: #333;
+width: 300px;
+height: 60px;
+vertical-align: center;
+
+
+}
+.logo{
+width: 300px;
+height: 60px;
+flex-shrink: 0;
+
+background: #333;
+color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+vertical-align: center;
+
+}
+.div2{
+    width: 1440px;
+    height: 900px;
+    background: #FFF;
+}
+
+.p1{
+ width: 561px;
+color: #4F4F4F;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 73px;
+margin-left: 479px;
+
+}
+.image2{
+width: 951px;
+height: 607px;
+margin-left: 22px;
+margin-right: 67px;
+}
