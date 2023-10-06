@@ -1,104 +1,133 @@
-header{
-    width: 1440px;
-    height: 900px;
-    background: #FFF;
+/* Remove margin and padding */
+* {
+    margin: 0;
+    padding: 0;
 }
-.div{
+
+/* Main */
+.parent {
+    width: 100vw;
+    height: 100vh;
+
+    /* Aligns the children items in a row direction */
+    display: flex;
+}
+
+.left {
     width: 400px;
     height: 900px;
-    background: #2F80ED;
-    margin-right: 1040px; 
+    background-color: #2F80ED;
+    float: left;
 }
- 
-.image{
+
+.right {
+    width: 1040px;
+    height: 900px;
+    background-color: #FFF;
+    float: right;
+}
+
+/*Analytics*/
+.analytics {
+    /* Aligns the children items in a row direction */
+    display: flex;
+    margin-left: 44px;
+}
+
+.analytics-image {
     width: 38px;
     height: 38px;
     margin-right: 16px;
-    margin-top: 64px;
-    display: inline-block;
+    margin-top: 59px;
+    float: left;
 }
 
-.heading{
+.analytics-heading {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-style: normal;
     width: 208px;
-    height:36px ;
+    height: 36px;
     margin-top: 64px;
-    margin-bottom: 149px; */ */
+    margin-bottom: 149px;
     margin-left: 16px;
-    margin-right:94px;
-    display: inline-block;
+    margin-right: 94px;
+    float: right;
 }
 
-.sign{
-color: #FFF;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-background-color: #333;
-width: 87px;
-height: 36px;
-vertical-align: middle;
-padding-right: 127px;
-padding-left: 102px;
-margin-left: 44px;
-margin-right: 56px;
-}
-.logo{
-width: 67px;
-height: 36px;
-background: #333;
-color: #FFF;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-vertical-align: middle;
-padding-left:112px ;
-padding-right: 121px;
-margin-left: 44px;
-margin-top: 42px;
-margin-right: 56px;
-}
-.div2{
-    width: 1440px;
-    height: 900px;
-    background: #FFF;
-    /* position: relative;  */
+/* Buttons */
+.buttons {
+    width: 400px;
+    height: 250px;
 }
 
-.paragraph{
-width: 561px;
-height: 108px;
-color: #4F4F4F;
-font-family: Poppins;
-font-size: 36px;
-line-height: normal;
-margin-top: 73px;
-margin-left: 879px; 
-
+.sign {
+    color: #FFF;
+     font-family: 'Poppins', sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #333;
+    width: 300px;
+    height: 60px;
+    vertical-align: middle;
+    padding-right: 127px;
+    padding-left: 102px;
+    margin-left: 44px;
+    margin-right: 56px;
 }
-.image2{
-width: 951px;
-height: 607px;
-margin-left: 422px;
-margin-right: 67px;
-margin-top: 167px;
- margin-bottom: 126px; 
 
+.login {
+    width: 300px;
+    height: 60px;
+    background: #333;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: middle;
+    padding-left: 112px;
+    padding-right: 121px;
+    margin-left: 44px;
+    margin-top: 42px;
+    margin-right: 56px;
 }
-.p2{
-width: 561px;
-color: #4F4F4F;
-font-family: Poppins;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 475px;
- margin-bottom: 58px; 
-margin-left: 404px;
+
+/* Right */
+
+.privacy {
+    width: 561px;
+    height: 108px;
+    color: #4F4F4F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: normal;
+    margin-top: 73px;
+    margin-left: 479px;
+}
+
+.chart-image {
+    width: 951px;
+    height: 607px;
+    margin-left: 22px;
+    margin-right: 67px;
+    /* margin-top: 167px; */
+    margin-bottom: 126px;
+}
+
+.data-collect {
+    width: 561px;
+    color: #4F4F4F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 75px;
+    margin-right: 404px;
+    margin-bottom: 958px;
 }
