@@ -7,49 +7,48 @@ header{
     width: 400px;
     height: 900px;
     background: #2F80ED;
-    margin-right: 1040px;
-
+    margin-right: 1040px; 
 }
-.chart{
-width: 38px;
-height: 38px;
-margin-bottom: 147px;
-margin-right: 16px;
-margin-left:44px ;
-margin-top: 300px;
-display: inline-block;
+ 
+.image{
+    width: 38px;
+    height: 38px;
+    margin-right: 16px;
+    margin-top: 64px;
+    display: inline-block;
 }
 
-.h5{
-color: #FFF;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 200px;
-margin-left: 16px;
-margin-right:94px;
-margin-bottom: 149px;
-display: inline-block;
+.heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    width: 208px;
+    height:36px ;
+    margin-top: 64px;
+    margin-bottom: 149px; */ */
+    margin-left: 16px;
+    margin-right:94px;
+    display: inline-block;
 }
+
 .sign{
 color: #FFF;
 font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 background-color: #333;
-width: 300px;
-height: 60px;
-vertical-align: center;
-
-
+width: 87px;
+height: 36px;
+vertical-align: middle;
+padding-right: 127px;
+padding-left: 102px;
+margin-left: 44px;
+margin-right: 56px;
 }
 .logo{
-width: 300px;
-height: 60px;
-flex-shrink: 0;
-
+width: 67px;
+height: 36px;
 background: #333;
 color: #FFF;
 font-family: Poppins;
@@ -57,30 +56,49 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-vertical-align: center;
-
+vertical-align: middle;
+padding-left:112px ;
+padding-right: 121px;
+margin-left: 44px;
+margin-top: 42px;
+margin-right: 56px;
 }
 .div2{
     width: 1440px;
     height: 900px;
     background: #FFF;
+    /* position: relative;  */
 }
 
-.p1{
- width: 561px;
+.paragraph{
+width: 561px;
+height: 108px;
+color: #4F4F4F;
+font-family: Poppins;
+font-size: 36px;
+line-height: normal;
+margin-top: 73px;
+margin-left: 879px; 
+
+}
+.image2{
+width: 951px;
+height: 607px;
+margin-left: 422px;
+margin-right: 67px;
+margin-top: 167px;
+ margin-bottom: 126px; 
+
+}
+.p2{
+width: 561px;
 color: #4F4F4F;
 font-family: Poppins;
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 73px;
-margin-left: 479px;
-
-}
-.image2{
-width: 951px;
-height: 607px;
-margin-left: 22px;
-margin-right: 67px;
+margin-left: 475px;
+ margin-bottom: 58px; 
+margin-left: 404px;
 }
